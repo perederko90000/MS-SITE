@@ -1,0 +1,305 @@
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+}
+
+header {
+  background: #000000;
+
+  height: 200px;
+}
+
+.caixa {
+  position: relative;
+  width: 850px;
+  margin: 0 auto 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 550px;
+  border-left: 2px solid #c78c19;
+  padding: 10px;
+}
+.pesquisar-label {
+  position: absolute;
+  top: 27px;
+  right: 0px;
+  width: 375px;
+
+  padding: 10px;
+}
+
+nav li {
+  display: flex;
+
+  margin: 10px 0px 10px 0px;
+  column-gap: wrap;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  font-family:  'Work Sans', sans-serif;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: under;
+}
+
+.menu__pesquisar {
+  width: 310px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-top: 0px;
+}
+.menu__input {
+  color: white;
+  background-color: black;
+  background-image: url("/assets/icone-busca.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 135%;
+  line-height: 25px;
+  padding-left: 28px;
+}
+
+main .topico-nomes {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px 2px 0 0;
+
+  font-family: "Lobster", cursive;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.paragrafo-quemsomos {
+  font-size: 30px;
+  text-align: center;
+  margin: 3% 0% 0 0;
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-family: "Varela Round", sans-serif;
+}
+.topico-nomes:before {
+  content: " ✪ ";
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto 0 auto;
+  align-items: left;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.img3 {
+  width: 60%;
+}
+.img2 {
+  width: 73%;
+}
+
+.img4 {
+  width: 54%;
+}
+
+.linhas-sobrenos {
+  text-align: center;
+}
+.linhas-sobrenos:hover {
+  background: #ffffff;
+  transform: scale(1.1);
+  transition: 1s all;
+}
+
+.produtos li {
+  display: inline;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  background: linear-gradient(#ffffff, #b1b1b18a);
+  margin: 40px 0.9em;
+  padding: 30px 30px;
+  box-sizing: content-box;
+  border: 2px solid #000000;
+  border-radius: 40px;
+}
+
+.produtos li:hover {
+  border-color: #c78c19;
+  background: #e2dfdf;
+  transform: scale(1.1);
+  transition: 1s all;
+}
+
+.produtos li:active {
+  border-color: #000000;
+}
+
+.produtos li:hover h2 {
+  border: color #c78c19;
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Lobster", cursive;
+}
+
+.descriçao-sobrenos {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  color: #eba61d;
+}
+.meios-comunicacao {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.links-links {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #eba61d;
+  width: 290px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #eba61d;
+  font-family: "Lobster", cursive;
+}
+.imagens-redesociais {
+  width: 7%;
+  height: 1%;
+}
+.apresentacao__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #aa7917;
+
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px 30px 10px 50px;
+
+  font-family: "Lobster", cursive;
+  margin: 20px 0 0 0;
+}
+.pag-footer {
+  text-decoration: none;
+  color: #000000;
+}
+
+.imagens-git {
+  width: 6%;
+  height: 75%;
+}
+/* pag dos produtos */
+.apresentacao {
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 30px;
+  color: #e2dfdf;
+  font-family: "Lobster", cursive;
+  font-weight: 600;
+  border-bottom: 2px solid #c78c19;
+  padding: 2px;
+}
+.titulo-destaque {
+  color: #e2dfdf;
+}
+.apresentacao__conteudo__texto {
+  font-size: 23px;
+  font-family: "Lobster", cursive;
+  color: #e2dfdf;
+}
+.imagem-vendas {
+  width: 50%;
+}
+/* parte do contato */
+
+.imagem-site{
+  width: 10%;
+  height: 16%;
+}
+
+
+
+.imagem-contato {
+  width: 8%;
+  height: 2%;
+}
+.apresentacao__conteudo__texto-contato{
+  display: flex;
+  justify-content: center;
+  
+  width: 290px;
+  text-align: center;
+  border-radius: 16px;
+  
+  font-weight: 900;
+  padding: 20px 30px 10px 50px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  
+  font-size:17px;
+  font-family: "Lobster", cursive;
+  color: #e2dfdf;
+}
+
+.imagem-contato-1 {
+  width: 30%;
+}
+
+.apresentacao__conteudo__titulo_contato{
+  font-size: 30px;
+  color: #e2dfdf;
+  font-family: "Lobster", cursive;
+  font-weight: 600;
+  border: 2px solid #c78c19;
+  padding: 3px;
+  border-radius: 16px;
+
+}
