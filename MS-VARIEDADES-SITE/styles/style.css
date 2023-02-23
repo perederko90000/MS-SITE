@@ -132,7 +132,7 @@ main .topico-nomes {
   text-align: center;
   width: 30%;
   vertical-align: top;
-  background: linear-gradient(#ffffff, #b1b1b18a);
+  background-image: linear-gradient(#ffffff, #b1b1b18a);
   margin: 40px 0.9em;
   padding: 30px 30px;
   box-sizing: content-box;
@@ -142,7 +142,7 @@ main .topico-nomes {
 
 .produtos li:hover {
   border-color: #c78c19;
-  background: #e2dfdf;
+  background-color: #e2dfdf;
   transform: scale(1.1);
   transition: 1s all;
 }
